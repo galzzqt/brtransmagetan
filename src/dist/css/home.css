@@ -1,0 +1,54 @@
+header {
+    padding-top: 100px;
+    background: #4e4e4e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4e4e4e, #000000);
+    background: linear-gradient(to bottom, #4e4e4e, #000000);
+}
+
+.hero-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hero-section h1 {
+    font-weight: bold;
+}
+
+.hero-section .lead {
+    font-size: 1.5rem;
+}
+
+.btn-outline-custom-red {
+    color: #ff0000; /* Adjust this to your preferred shade of red */
+    border-color: #ff0000;
+  }
+  
+  .btn-outline-custom-red:hover {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+  }
+
+  .profile-section {
+    background-color: #f8f9fa;
+  }
+  
+  .profile-section h2 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .profile-section p {
+    color: #666;
+  }
+  
+  .profile-section .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  .profile-section img {
+    max-width: 100%;
+    height: auto;
+  }
+

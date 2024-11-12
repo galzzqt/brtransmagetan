@@ -1,0 +1,62 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #f6f8fd;
+    --secondary-color: #dc3545;
+    --color-text: #231942;
+    --navbar-color: #ffffff;
+    --navbar-color-text: #000000;
+  }
+
+  /* style Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    transition: background-color 0.3s ease;
+    background-color: rgba(0, 0, 0, 1);
+    min-height: 80px;
+}
+
+.navbar-brand img {
+    max-height: 80px;
+    width: auto;
+}
+
+.navbar .nav-link a {
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    text-decoration: solid;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.navbar .nav-link a:hover {
+    color: var(--secondary-color);
+    transition-delay: 0,1s;
+}
+
+.navbar .nav-link .active {
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+.navbar .nav-link .active:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.navbar .nav-link .active:hover {
+    color: var(--secondary-color);
+}
+

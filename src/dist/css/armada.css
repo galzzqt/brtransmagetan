@@ -1,0 +1,87 @@
+.armada-bg {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding-top: 60px; /* Adjust this value based on your header height */
+  }
+  
+  .armada-title {
+    font-size: 3rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    padding-top: 2rem; /* Add some padding to the title */
+  }
+  
+  
+  .bus-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .bus-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-wrapper {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bus-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .capacity {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .features-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  .features-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .features-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .features-list i {
+    color: #28a745;
+    margin-right: 0.5rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 1rem;
+  }
+  
+  .book-btn {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #0056b3;
+  }
+  
