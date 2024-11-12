@@ -34,7 +34,7 @@ const Armada = () => {
   ];
 
   const handleReservation = (busName) => {
-    const phoneNumber = '62895341088617'; // Replace with your actual WhatsApp number
+    const phoneNumber = '6281217455181'; // Replace with your actual WhatsApp number
     const message = encodeURIComponent(`Halo, saya ingin memesan ${busName}. Bisakah Anda memberikan informasi lebih lanjut?`);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');

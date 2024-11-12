@@ -23,7 +23,16 @@ const Home = () => {
               <p className="lead text-white-50 mb-4" style={{ fontSize: '1rem' }}>
               Lebih dari sekadar rental mobil dan bus. Kami juga menyediakan layanan antar-jemput bandara, wisata, dan paket perjalanan. Kunjungi website kami untuk informasi lebih lanjut.
               </p>
-              <Button variant="danger" size="lg" className="me-3">Reservasi</Button>
+              <Button 
+                variant="danger" 
+                size="lg" 
+                className="me-3" 
+                href="https://wa.me/6281217455181"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Reservasi
+              </Button>
               <Link to="/kontak">
                 <Button variant="outline-danger" size="lg">Contact</Button>
               </Link>
